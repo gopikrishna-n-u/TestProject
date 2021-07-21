@@ -1,0 +1,7 @@
+<app-header></app-header>
+<h1 style="text-align: center;"><b>HOME</b></h1>
+<h3 style="text-align: center;">Choose User</h3>
+<div class="divStyle">
+    <div class="boxStyle" *ngFor="let item of Object.keys(users)" (click)="goto(this.users[item])"><p class="textStyle">{{this.users[item].username}}</p></div>
+</div>
+<app-footer></app-footer>

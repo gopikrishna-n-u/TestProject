@@ -1,0 +1,13 @@
+.navHeader {
+    place-content: space-between !important;
+
+    .navTitle {
+        display: flex;
+        place-items: center;
+    }
+    .span-style {
+        color: white;
+        font-size: 14px;
+        padding: 0px 15px;
+    }
+}

@@ -1,0 +1,17 @@
+.divStyle{
+    display: flex;
+    place-content: space-around;
+    height: 87vh;
+    .boxStyle{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background: grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .textStyle{
+        text-align: center;
+        padding: 40px 0;
+    }
+}

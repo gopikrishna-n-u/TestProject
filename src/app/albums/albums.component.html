@@ -1,0 +1,11 @@
+<app-header></app-header>
+<h2 style="text-align: center;"><b>ALBUMS</b></h2>
+<div class="divStyle">
+    <div class="boxStyle" *ngFor="let item of Object.keys(allData)">
+        <!-- <p><b> Title: </b></p> -->
+        <p><b>{{allData[item].title}}</b></p>
+        <img class="style" [src]='allData[item].thumbnailUrl' draggable="false" *ngIf="!URL" (click)="openImage">
+        <img class="style" [src]='allData[item].url' draggable="false" *ngIf="URL" (click)="openImage">
+    </div>
+</div>
+<app-footer></app-footer>

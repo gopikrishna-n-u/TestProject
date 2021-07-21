@@ -1,0 +1,25 @@
+.divStyle{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 50px;
+    .boxStyle{
+        margin: 50px;
+        height: 200px;
+        width: 500px;
+        background: #cecece;
+        border: 1px solid black;
+        // border-radius: 5px;
+        cursor: pointer;
+    }
+    .textStyle{
+        text-align: center;
+        padding: 40px 0;
+    }
+}
+.style{
+    height: 60px;
+    transition: transform 0.2s;
+}
+.style:hover {
+    transform: scale(2.5);
+}
